@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 3: Data Insights - Appliance Energy Consumption</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Reusable Navigation Bar -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <!-- Header Section -->
+    <div class="p-4 p-md-5 mb-4 rounded bg-body-tertiary shadow-sm">
+      <h1 class="display-6 fw-bold">How Television Screen Size Impacts Annual Energy Consumption</h1>
+    </div>
+
+    <!-- Audience & Core Question Section -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0 bg-surface">
+          <div class="card-body p-4">
+            <h4 class="card-title text-primary fw-semibold mb-3">Target Audience</h4>
+            <p class="card-text">
+              <strong>Australian Consumers & Household Buyers:</strong> Individuals looking to purchase a new television who are interested in balancing entertainment preferences with ongoing household electricity bills.
+            </p>
+            <p class="card-text">
+              <strong>Key Characteristics:</strong> Non-technical audience seeking clear, actionable insights regarding energy efficiency, annual operating costs, and long-term utility bill impacts.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0 bg-surface">
+          <div class="card-body p-4">
+            <h4 class="card-title text-primary fw-semibold mb-3">Core Question</h4>
+            <h5 class="fw-bold text-dark mb-3">"How does television screen size impact annual energy consumption?"</h5>
+            <p class="card-text">
+              As display technology expands toward larger form factors, consumers often overlook the exponential scale in annual power draw required to illuminate larger screen surface areas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visualisation & Narrative Story Section -->
+    <div class="card shadow-sm border-0 mb-5">
+      <div class="card-header bg-primary text-white py-3">
+        <h3 class="h5 mb-0 fw-semibold">Visual Data Insight: Screen Size vs. Annual Energy Consumption</h3>
+      </div>
+      <div class="card-body p-4">
+        <div class="row align-items-center g-4">
+          <!-- Screenshot Column -->
+          <div class="col-lg-6 text-center">
+            <div class="p-3 bg-light rounded border">
+              <img src="assets/img/tv_size_energy_chart.png" alt="Average Labelled Energy Consumption by TV Size Group" class="img-fluid rounded shadow-sm">
+              <p class="small text-muted mt-2 mb-0">Figure 1: Average Labelled Energy Consumption (kWh/year) categorized by TV size (Small, Medium, Large).</p>
+            </div>
+          </div>
+
+          <!-- Analytical Narrative Column -->
+          <div class="col-lg-6">
+            <h4 class="fw-bold mb-3 text-dark">Key Findings & Analysis</h4>
+            <p>
+              The bar chart above clearly illustrates a direct, non-linear relationship between television screen dimensions and average annual energy consumption (measured in kilowatt-hours per year):
+            </p>
+            <ul class="list-group list-group-flush mb-3">
+              <li class="list-group-item bg-transparent">
+                <strong>Small TVs:</strong> Average approximately <strong>215 kWh/year</strong>. Ideal for compact bedrooms or secondary living spaces.
+              </li>
+              <li class="list-group-item bg-transparent">
+                <strong>Medium TVs:</strong> Average approximately <strong>402 kWh/year</strong>. Represents an ~87% increase in energy consumption compared to small models.
+              </li>
+              <li class="list-group-item bg-transparent">
+                <strong>Large TVs:</strong> Average approximately <strong>723 kWh/year</strong>. Consumes over 3.3x the power of small screens and nearly double medium screens.
+              </li>
+            </ul>
+            <div class="alert alert-warning border-0 mb-0" role="alert">
+              <strong>Consumer Takeaway:</strong> Upgrading from a medium to a large television form factor nearly doubles your television's contribution to annual energy expenses, even if the Energy Rating Star counts appear similar.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommendations for Buyers -->
+    <div class="p-4 bg-body-tertiary rounded shadow-sm mb-4">
+      <h4 class="fw-bold text-dark mb-3">Actionable Buyer Guidance</h4>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="p-3 bg-white rounded border h-100">
+            <h6 class="fw-bold text-primary">Right-Size Your Room</h6>
+            <p class="small text-muted mb-0">Select screen dimensions matched appropriately to viewing distances rather than defaulting to the largest form factor.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-white rounded border h-100">
+            <h6 class="fw-bold text-primary">Check Labelled kWh/Year</h6>
+            <p class="small text-muted mb-0">Look beyond star ratings and compare raw annual kWh metrics across models within your chosen size category.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-white rounded border h-100">
+            <h6 class="fw-bold text-primary">Utilize ECO Modes</h6>
+            <p class="small text-muted mb-0">Enable automatic brightness scaling and power-saving modes on larger displays to curtail standby and operational power draw.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Reusable Footer Container -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/components.js"></script>
+</body>
+</html>
