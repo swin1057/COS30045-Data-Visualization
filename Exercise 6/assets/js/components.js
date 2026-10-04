@@ -86,7 +86,7 @@ function renderFooter() {
 
   const footerHTML = `
     <footer class="py-3 text-center mt-auto">
-      <p class="mb-0">&copy; ${currentYear} | Created by Your Name</p>
+      <p class="mb-0">&copy; ${currentYear} | Created by Tea Sing Yii</p>
       <small class="text-muted">Generative AI Acknowledgement: Developed with assistance from Gemini AI.</small>
     </footer>
   `;
