@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 - Multi-Chart Web Page</title>
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lab 5: TV Energy Consumption & Electricity Spot Prices</h1>
+    </header>
+
+    <main>
+        <!-- Bar Chart Container -->
+        <div id="bar-chart" class="responsive-svg-container"></div>
+        
+        <!-- New Line Chart Container -->
+        <div id="line-chart" class="responsive-svg-container"></div>
+    </main>
+
+    <!-- D3.js Library (v7) -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <!-- Custom D3 Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/line-chart.js"></script>
+
+</body>
+</html>
