@@ -19,20 +19,21 @@ A light, responsive, multi-page web application designed to track, calculate, an
 ---
 
 ## Project Folder Structure
-
 ```text
 /
-├── index.html          # Home page with appliance insights & FAQ accordion
-├── televisions.html    # Power consumption comparison table for TVs
-├── calculator.html     # Interactive energy consumption calculator
-├── about.html          # Project overview and mission statement
-├── README.md           # Documentation
+├── index.html              # Home page with appliance insights & FAQ accordion
+├── televisions.html        # Power consumption comparison table for TVs
+├── calculator.html         # Interactive energy consumption calculator
+├── exercise3.html          # Exercise 3 Data Story & Visualisation Insights
+├── about.html             # Project overview and mission statement
+├── README.md               # Documentation & AI Declaration
 └── assets/
     ├── css/
-    │   ├── light.css   # Material Design light theme palette variables
-    │   └── style.css   # Custom site styling and Bootstrap component overrides
+    │   ├── light.css       # Material Design light theme palette variables
+    │   └── style.css       # Custom site styling and Bootstrap component overrides
     ├── js/
-    │   ├── components.js # Reusable navbar and footer rendering logic
-    │   └── calculator.js # Input validation & energy calculation logic
+    │   ├── components.js   # Reusable navbar and footer rendering logic
+    │   └── calculator.js   # Input validation & energy calculation logic
     └── img/
-        └── PowerIcon.png # Brand logo displayed in navigation
+        ├── PowerIcon.png             # Brand logo displayed in navigation
+        └── tv_size_energy_chart.png  # Exercise 3 visualization screenshot
